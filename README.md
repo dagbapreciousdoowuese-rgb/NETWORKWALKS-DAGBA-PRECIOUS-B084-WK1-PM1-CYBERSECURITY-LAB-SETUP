@@ -27,3 +27,10 @@ The specific tasks included:
 - Connecting the Windows Downloads folder to Kali Linux through a shared folder.
 - Creating a snapshot to preserve the virtual machine's initial configuration.
 - Testing the network connection and documenting the results.
+
+
+**Step 1: Installing Oracle VirtualBox**
+
+The first stage of the project was preparing the virtualisation software needed to run the cybersecurity laboratory.
+I downloaded and installed Oracle VirtualBox 7.2.20 on my Windows laptop. VirtualBox provides a platform for creating and running virtual machines, which allows me to operate another operating system without replacing my existing Windows installation.
+After installation, I opened VirtualBox to confirm that the application was working and ready for the Kali Linux setup.
