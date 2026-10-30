@@ -196,3 +196,6 @@ I navigated to the Snapshots section and selected the option to create a new sna
 
 After entering the snapshot details, I confirmed the operation.
 VirtualBox saved the snapshot, making it available for future restoration when necessary.
+
+
+
