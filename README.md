@@ -9,3 +9,21 @@ This project is focused on setting up my first practical cybersecurity laborator
 Using my Windows laptop as the host computer, I installed and prepared a Kali Linux virtual machine and worked on its network configuration, connectivity and integration with the host system.
 
 This laboratory will serve as my starting point for hands-on cybersecurity practice and future technical exercises.
+
+
+
+**Project Objectives**
+
+The main goal of this exercise was to build a functional virtual laboratory that I can use for practical cybersecurity learning.
+
+The specific tasks included:
+
+- Installing and configuring Kali Linux in Oracle VirtualBox.
+- Creating a dedicated NAT Network for the laboratory.
+- Connecting the Kali Linux virtual machine to the configured network.
+- Setting up a static IPv4 address.
+- Providing internet access within the virtual machine.
+- Enabling bidirectional clipboard sharing and drag-and-drop.
+- Connecting the Windows Downloads folder to Kali Linux through a shared folder.
+- Creating a snapshot to preserve the virtual machine's initial configuration.
+- Testing the network connection and documenting the results.
