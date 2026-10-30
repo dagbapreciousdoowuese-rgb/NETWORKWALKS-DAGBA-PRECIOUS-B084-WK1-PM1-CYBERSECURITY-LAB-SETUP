@@ -66,3 +66,19 @@ Once it booted successfully, I could access the Kali Linux desktop and its built
 <img width="3955" height="2417" alt="Kali Linux after start up" src="https://github.com/user-attachments/assets/d4f17c33-1ba9-4cd2-aeb4-9cb4355deecf" />
 
 
+
+Step 3: Creating a NAT Network in VirtualBox
+After setting up Kali Linux, the next stage was creating a dedicated virtual network for the cybersecurity laboratory.
+I used VirtualBox's Network Manager to create a NAT Network named Cybersecurity-Lab. This network provides a common networking environment for virtual machines and allows them to access external networks through Network Address Translation (NAT).
+3.1 Creating the NAT Network
+I opened the VirtualBox Network Manager and created a new NAT Network.
+I assigned it the name Cybersecurity-Lab to make it easy to identify within the virtualisation environment.
+3.2 Configuring the Network Address
+I configured the network to use the required IPv4 address range and subnet prefix:
+10.0.0.0/24
+This defines the private network address range that will be used for communication within the laboratory.
+3.3 Configuring Network Options
+I enabled the NAT Network and left IPv6 disabled, as required for the project.
+The network was then saved for use by the Kali Linux virtual machine.
+3.4 Result
+The Cybersecurity-Lab NAT Network was successfully created in VirtualBox and made available for the Kali Linux network adapter configuration.
