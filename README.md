@@ -41,6 +41,7 @@ After installation, I opened VirtualBox to confirm that the application was work
 A view of the VirtualBox Environment.
 
 
+
 **Downloading and Setting Up Kali Linux**
 
 After installing Oracle VirtualBox, the next task was to obtain Kali Linux and prepare it to run as a virtual machine.
@@ -66,6 +67,8 @@ Once it booted successfully, I could access the Kali Linux desktop and its built
 <img width="3955" height="2417" alt="Kali Linux after start up" src="https://github.com/user-attachments/assets/d4f17c33-1ba9-4cd2-aeb4-9cb4355deecf" />
 
 
+
+
 **Creating a NAT Network in VirtualBox**
 
 After setting up Kali Linux, the next stage was creating a dedicated virtual network for the cybersecurity laboratory.
@@ -78,5 +81,11 @@ I enabled the NAT Network and left IPv6 disabled, as required for the project.
 The network was then saved for use by the Kali Linux virtual machine.
 
 
-3.4 Result
+
+<img width="3072" height="2354" alt="image" src="https://github.com/user-attachments/assets/76889dd5-91f1-4d6a-8970-8464f6d9da5b" />
+
+
+
+
+
 The Cybersecurity-Lab NAT Network was successfully created in VirtualBox and made available for the Kali Linux network adapter configuration.
