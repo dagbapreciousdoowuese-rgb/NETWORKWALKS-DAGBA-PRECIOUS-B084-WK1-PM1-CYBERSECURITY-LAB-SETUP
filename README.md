@@ -203,6 +203,8 @@ I selected the option to add a new shared folder and chose the Downloads directo
 
 
 
+
+
 **Creating a Snapshot of the Kali Linux Virtual Machine**
 
 After configuring the virtual machine, I created a snapshot in VirtualBox to preserve its current state.
@@ -213,6 +215,10 @@ I navigated to the Snapshots section and selected the option to create a new sna
 
 After entering the snapshot details, I confirmed the operation.
 VirtualBox saved the snapshot, making it available for future restoration when necessary.
+
+
+
+<img width="4096" height="3072" alt="snapshot" src="https://github.com/user-attachments/assets/bf74a77d-fead-40bc-813d-a99ee47ff381" />
 
 
 
