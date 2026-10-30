@@ -143,7 +143,6 @@ DNS Server| Configured DNS server
 
 I used Kali Linux's network configuration tools to apply the required settings.
 
-
 After configuring the network address, I proceeded to check whether Kali Linux could communicate with external networks.
 
 I used the following commands during the connectivity checks:
@@ -160,7 +159,6 @@ The first command checks whether the machine can reach an external IP address, w
 
 These tests help distinguish between general network connectivity problems and DNS-related issues.
 
-
 I also configured VirtualBox to support file and text exchange between my Windows host and Kali Linux.
 
 Under the virtual machine's settings, I configured the following options:
@@ -169,7 +167,8 @@ Setting| Configuration
 Shared Clipboard| Bidirectional
 Drag and Drop| Bidirectional
 
-These settings allow information and supported files to be transferred in both directions between the host computer and the virtual machine.
+
+
 
 
 
