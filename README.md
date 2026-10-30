@@ -116,3 +116,67 @@ After selecting the appropriate network, I saved the changes. This connected the
 
 
 
+
+
+
+
+
+
+
+**Configuring the Network and VirtualBox Integration**
+
+After connecting Kali Linux to the Cybersecurity-Lab NAT Network, I proceeded to configure its network settings, establish internet connectivity and enable communication between the virtual machine and my Windows host.
+
+I opened the Kali Linux terminal and used the following command to examine the available network interfaces:
+
+ip a
+
+The project required Kali Linux to use a static IPv4 address rather than depend on automatic address assignment.
+
+The required network parameters were:
+
+Parameter| Configuration
+IPv4 Address| 10.0.0.2
+Subnet Prefix| /24
+Default Gateway| Virtual network gateway
+DNS Server| Configured DNS server
+
+I used Kali Linux's network configuration tools to apply the required settings.
+
+
+After configuring the network address, I proceeded to check whether Kali Linux could communicate with external networks.
+
+I used the following commands during the connectivity checks:
+
+Testing external IP connectivity:
+
+ping -c 4 8.8.8.8
+
+Testing DNS resolution:
+
+ping -c 4 google.com
+
+The first command checks whether the machine can reach an external IP address, while the second checks whether it can resolve a domain name and communicate with the destination.
+
+These tests help distinguish between general network connectivity problems and DNS-related issues.
+
+
+I also configured VirtualBox to support file and text exchange between my Windows host and Kali Linux.
+
+Under the virtual machine's settings, I configured the following options:
+
+Setting| Configuration
+Shared Clipboard| Bidirectional
+Drag and Drop| Bidirectional
+
+These settings allow information and supported files to be transferred in both directions between the host computer and the virtual machine.
+
+
+
+
+
+
+
+This stage covered the network addressing requirements, connectivity checks and VirtualBox integration settings needed for the laboratory.
+
+The actual results of the connectivity tests should be confirmed from the Kali Linux terminal before recording them as successful.
