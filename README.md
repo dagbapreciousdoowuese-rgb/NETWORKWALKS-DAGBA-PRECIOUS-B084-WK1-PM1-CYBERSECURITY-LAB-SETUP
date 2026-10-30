@@ -89,3 +89,18 @@ The network was then saved for use by the Kali Linux virtual machine.
 
 
 The Cybersecurity-Lab NAT Network was successfully created in VirtualBox and made available for the Kali Linux network adapter configuration.
+
+
+
+
+
+
+
+
+
+
+
+<img width="4096" height="3072" alt="Network Adapter" src="https://github.com/user-attachments/assets/f97aa379-25f8-4651-aa6c-d506a2851fbb" />
+
+
+
