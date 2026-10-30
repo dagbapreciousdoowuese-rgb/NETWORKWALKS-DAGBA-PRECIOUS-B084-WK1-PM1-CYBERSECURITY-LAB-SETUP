@@ -29,7 +29,7 @@ The specific tasks included:
 - Testing the network connection and documenting the results.
 
 
-**Step 1: Installing Oracle VirtualBox**
+**Installing Oracle VirtualBox**
 
 The first stage of the project was preparing the virtualisation software needed to run the cybersecurity laboratory.
 I downloaded and installed Oracle VirtualBox 7.2.20 on my Windows laptop. VirtualBox provides a platform for creating and running virtual machines, which allows me to operate another operating system without replacing my existing Windows installation.
@@ -41,7 +41,7 @@ After installation, I opened VirtualBox to confirm that the application was work
 A view of the VirtualBox Environment.
 
 
-**Step 2: Downloading and Setting Up Kali Linux**
+**Downloading and Setting Up Kali Linux**
 
 After installing Oracle VirtualBox, the next task was to obtain Kali Linux and prepare it to run as a virtual machine.
 I downloaded the pre-built Kali Linux virtual machine image from the official Kali Linux website. This version was already packaged for virtualisation, making it possible to import it directly into VirtualBox without going through a separate operating system installation process.
@@ -66,19 +66,17 @@ Once it booted successfully, I could access the Kali Linux desktop and its built
 <img width="3955" height="2417" alt="Kali Linux after start up" src="https://github.com/user-attachments/assets/d4f17c33-1ba9-4cd2-aeb4-9cb4355deecf" />
 
 
+**Creating a NAT Network in VirtualBox**
 
-Step 3: Creating a NAT Network in VirtualBox
 After setting up Kali Linux, the next stage was creating a dedicated virtual network for the cybersecurity laboratory.
 I used VirtualBox's Network Manager to create a NAT Network named Cybersecurity-Lab. This network provides a common networking environment for virtual machines and allows them to access external networks through Network Address Translation (NAT).
-3.1 Creating the NAT Network
 I opened the VirtualBox Network Manager and created a new NAT Network.
 I assigned it the name Cybersecurity-Lab to make it easy to identify within the virtualisation environment.
-3.2 Configuring the Network Address
 I configured the network to use the required IPv4 address range and subnet prefix:
-10.0.0.0/24
-This defines the private network address range that will be used for communication within the laboratory.
-3.3 Configuring Network Options
+10.0.0.0/24. This defines the private network address range that will be used for communication within the laboratory.
 I enabled the NAT Network and left IPv6 disabled, as required for the project.
 The network was then saved for use by the Kali Linux virtual machine.
+
+
 3.4 Result
 The Cybersecurity-Lab NAT Network was successfully created in VirtualBox and made available for the Kali Linux network adapter configuration.
