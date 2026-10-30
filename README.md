@@ -56,7 +56,9 @@ After the download was completed, I used 7-Zip to extract the compressed file. T
 
 I opened the extracted folder and located the .vbox configuration file.
 I opened this file with VirtualBox, which registered the Kali Linux virtual machine in the application.
-
-
 After registering Kali Linux, I selected the virtual machine in VirtualBox and started it.
 Once it booted successfully, I could access the Kali Linux desktop and its built-in tools.
+
+<img width="3072" height="1743" alt="image" src="https://github.com/user-attachments/assets/148845a3-bd34-456f-a509-89f51d0c4b0f" />
+
+
