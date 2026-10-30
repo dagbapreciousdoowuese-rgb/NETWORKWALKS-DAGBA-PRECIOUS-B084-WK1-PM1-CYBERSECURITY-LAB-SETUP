@@ -180,3 +180,19 @@ Drag and Drop| Bidirectional
 
 This stage covered the network addressing requirements, connectivity checks and VirtualBox integration settings needed for the laboratory.
 
+
+
+
+
+
+
+**Creating a Snapshot of the Kali Linux Virtual Machine**
+
+After configuring the virtual machine, I created a snapshot in VirtualBox to preserve its current state.
+A snapshot captures the virtual machine's configuration at a particular point in time. It provides a recovery point that I can return to if future changes or experiments affect the existing setup.
+
+I opened VirtualBox and selected the Kali Linux virtual machine.
+I navigated to the Snapshots section and selected the option to create a new snapshot.
+
+After entering the snapshot details, I confirmed the operation.
+VirtualBox saved the snapshot, making it available for future restoration when necessary.
