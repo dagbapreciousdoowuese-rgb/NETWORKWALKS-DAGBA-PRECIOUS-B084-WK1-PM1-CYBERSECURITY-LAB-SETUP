@@ -36,7 +36,6 @@ I downloaded and installed Oracle VirtualBox 7.2.20 on my Windows laptop. Virtua
 After installation, I opened VirtualBox to confirm that the application was working and ready for the Kali Linux setup.
 
 
-![VirtualBox Environment] (https://github.com/dagbapreciousdoowuese-rgb/NETWORKWALKS-DAGBA-PRECIOUS-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/Virtualbox-home.jpg?raw=true)
 <img width="3072" height="4096" alt="image" src="https://github.com/user-attachments/assets/8138f76d-a770-4b8e-a8bd-ddb874634811" />
 
-
+A view of the VirtualBox Environment.
