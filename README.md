@@ -51,6 +51,7 @@ I downloaded the pre-built Kali Linux virtual machine image from the official Ka
 I visited the official Kali Linux website and downloaded the pre-built VirtualBox image.
 After the download was completed, I used 7-Zip to extract the compressed file. This gave me access to the virtual machine configuration files required by VirtualBox.
 
+<img width="3072" height="4096" alt="image" src="https://github.com/user-attachments/assets/409e5529-5b77-4d1d-a43d-59e5fa677551" />
 
 
 I opened the extracted folder and located the .vbox configuration file.
