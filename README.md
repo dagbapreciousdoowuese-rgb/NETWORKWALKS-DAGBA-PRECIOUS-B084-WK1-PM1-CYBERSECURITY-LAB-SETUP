@@ -92,7 +92,10 @@ The Cybersecurity-Lab NAT Network was successfully created in VirtualBox and mad
 
 
 
-Connecting Kali Linux to the NAT Network
+
+
+**Connecting Kali Linux to the NAT Network**
+
 With the NAT Network created, the next task was to connect the Kali Linux virtual machine to it. This connection allows Kali Linux to communicate through the virtual network configured for the laboratory.
 
 I selected the Kali Linux virtual machine in VirtualBox and opened its Settings.
