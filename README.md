@@ -41,16 +41,21 @@ After installation, I opened VirtualBox to confirm that the application was work
 A view of the VirtualBox Environment.
 
 
-Step 2: Downloading and Setting Up Kali Linux
+**Step 2: Downloading and Setting Up Kali Linux**
+
 After installing Oracle VirtualBox, the next task was to obtain Kali Linux and prepare it to run as a virtual machine.
 I downloaded the pre-built Kali Linux virtual machine image from the official Kali Linux website. This version was already packaged for virtualisation, making it possible to import it directly into VirtualBox without going through a separate operating system installation process.
-2.1 Downloading Kali Linux
+
+**Downloading Kali Linux**
+
 I visited the official Kali Linux website and downloaded the pre-built VirtualBox image.
-2.2 Extracting the Downloaded File
 After the download was completed, I used 7-Zip to extract the compressed file. This gave me access to the virtual machine configuration files required by VirtualBox.
-2.3 Importing Kali Linux into VirtualBox
+
+
+
 I opened the extracted folder and located the .vbox configuration file.
 I opened this file with VirtualBox, which registered the Kali Linux virtual machine in the application.
-2.4 Starting the Virtual Machine
+
+
 After registering Kali Linux, I selected the virtual machine in VirtualBox and started it.
 Once it booted successfully, I could access the Kali Linux desktop and its built-in tools.
