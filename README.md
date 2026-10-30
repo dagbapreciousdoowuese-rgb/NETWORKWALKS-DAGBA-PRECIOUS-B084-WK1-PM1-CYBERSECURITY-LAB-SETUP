@@ -62,3 +62,5 @@ Once it booted successfully, I could access the Kali Linux desktop and its built
 <img width="3072" height="1743" alt="image" src="https://github.com/user-attachments/assets/148845a3-bd34-456f-a509-89f51d0c4b0f" />
 
 
+<img width="3072" height="1743" alt="Kali Linux in VirtualBox" src="https://github.com/user-attachments/assets/77290e23-e602-47aa-9edd-c157df6f7156" />
+
