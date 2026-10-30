@@ -37,3 +37,6 @@ After installation, I opened VirtualBox to confirm that the application was work
 
 
 ![VirtualBox Environment] (https://github.com/dagbapreciousdoowuese-rgb/NETWORKWALKS-DAGBA-PRECIOUS-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/Virtualbox-home.jpg?raw=true)
+<img width="3072" height="4096" alt="image" src="https://github.com/user-attachments/assets/8138f76d-a770-4b8e-a8bd-ddb874634811" />
+
+
