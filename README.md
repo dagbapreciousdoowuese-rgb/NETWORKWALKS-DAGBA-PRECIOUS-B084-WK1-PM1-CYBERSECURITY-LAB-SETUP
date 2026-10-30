@@ -184,6 +184,21 @@ This stage covered the network addressing requirements, connectivity checks and 
 
 
 
+**Configuring a Shared Folder Between Windows and Kali Linux**
+
+After configuring the network and VirtualBox integration settings, the next task was to create a shared folder between my Windows host computer and Kali Linux.
+The purpose was to make files stored in my Windows Downloads directory accessible from within the virtual machine.
+
+I opened the Kali Linux virtual machine settings in VirtualBox and navigated to the Shared Folders section.
+I selected the option to add a new shared folder and chose the Downloads directory on my Windows computer.
+
+
+
+
+
+
+
+
 
 
 **Creating a Snapshot of the Kali Linux Virtual Machine**
@@ -205,10 +220,3 @@ VirtualBox saved the snapshot, making it available for future restoration when n
 
 
 
-**Configuring a Shared Folder Between Windows and Kali Linux**
-
-After configuring the network and VirtualBox integration settings, the next task was to create a shared folder between my Windows host computer and Kali Linux.
-The purpose was to make files stored in my Windows Downloads directory accessible from within the virtual machine.
-
-I opened the Kali Linux virtual machine settings in VirtualBox and navigated to the Shared Folders section.
-I selected the option to add a new shared folder and chose the Downloads directory on my Windows computer.
