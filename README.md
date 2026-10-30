@@ -227,4 +227,38 @@ VirtualBox saved the snapshot, making it available for future restoration when n
 
 
 
+**Challenges Encountered and Solutions**
+
+During the setup, I encountered a network activation error while connecting Kali Linux to the Cybersecurity-Lab NAT Network.
+
+**Error message:**
+
+*Connection activation failed:
+IP configuration could not be reserved
+(no available address, timeout, etc.).*
+
+**How I approached it:**
+
+I checked the NAT Network configuration in VirtualBox, reviewed the Kali Linux network adapter settings and used network commands such as "ip a" to examine the available interfaces and IP configuration.
+
+I worked through the network settings to address the IP configuration problem and align the virtual machine with the required network setup.
+
+**Lessons Learned**
+
+Through this project, I gained practical experience with:
+
+- Installing and managing virtual machines using VirtualBox.
+- Navigating the Kali Linux environment and using basic terminal commands.
+- Configuring NAT Networks and static IP addresses.
+- Understanding basic network connectivity and DNS testing.
+- Sharing files and information between a host computer and a virtual machine.
+- Identifying configuration errors and approaching technical problems systematically.
+
+Most importantly, I learned the value of understanding each configuration rather than simply following instructions.
+
+**Conclusion**
+
+Completing this project gave me my first practical experience setting up a cybersecurity laboratory. I became more familiar with VirtualBox, Kali Linux, virtual networking and basic troubleshooting.
+
+Although I encountered some difficulties along the way, working through the setup helped me connect theoretical concepts with practical activities. This laboratory provides a foundation for the cybersecurity exercises and projects ahead.
 
