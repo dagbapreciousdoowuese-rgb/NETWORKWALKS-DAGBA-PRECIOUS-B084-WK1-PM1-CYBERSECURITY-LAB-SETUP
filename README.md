@@ -171,6 +171,8 @@ Drag and Drop| Bidirectional
 
 
 
+<img width="3072" height="4096" alt="drag and drop" src="https://github.com/user-attachments/assets/dd92b173-57ec-44d7-a4ce-0b67b22ac7c0" />
+
 
 
 
@@ -178,4 +180,3 @@ Drag and Drop| Bidirectional
 
 This stage covered the network addressing requirements, connectivity checks and VirtualBox integration settings needed for the laboratory.
 
-The actual results of the connectivity tests should be confirmed from the Kali Linux terminal before recording them as successful.
