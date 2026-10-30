@@ -195,6 +195,8 @@ I selected the option to add a new shared folder and chose the Downloads directo
 
 
 
+<img width="3072" height="4096" alt="shared folder" src="https://github.com/user-attachments/assets/13fb5209-7d67-45f4-b86d-e0dd3d42b00c" />
+
 
 
 
